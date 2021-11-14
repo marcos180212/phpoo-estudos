@@ -1,6 +1,6 @@
 <?php 
 
-class Eu
+class SobrecargaDePropriedades
 {
 	private $firstname;
 	private $lastname;
@@ -28,10 +28,10 @@ class Eu
 	}
 }
 
-$eu = new Eu();
-$eu->firstname = 'Marcos';
-$eu->lastname = 'Silva';
+$sp = new SobrecargaDePropriedades();
+$sp->firstname = 'Marcos';
+$sp->lastname = 'Silva';
 
-echo "$eu->firstname\n";
-echo "$eu->lastname\n";
-var_dump($eu);
+echo "$sp->firstname\n";
+echo "$sp->lastname\n";
+var_dump($sp);
